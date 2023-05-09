@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="payment">
+      <header id="header">
+        <div class="header container">
+          <div
+            class="header__left"
+            style="padding-left: 2rem; padding-top: 2rem"
+          >
+            <a href="./index.html">
+              <img
+                src="./images/logo.png"
+                alt=""
+                style="scale: 0.9"
+                srcset=""
+              />
+            </a>
+            <span>OCT</span>
+          </div>
+          <div style="text-align: center; padding-right: 4rem">
+            <p>Thời gian thanh toán còn :</p>
+            <p><span id="total__time" style="color: red">7</span> phút</p>
+          </div>
+        </div>
+      </header>
+      <p class="text">OCT cam kết giữ đúng chỗ ngồi của bạn</p>
+      <ul class="payment__content">
+        <li class="payment__success--left">
+          <p class="success">Đặt chỗ thành công</p>
+          <p class="note">
+            Lưu ý: Hãy lưu lại thông tin ở đây để xuất trình ghi lên xe (chụp
+            màn hình...)
+          </p>
+          <div class="guide">
+            <p>Hướng dẫn lên xe:</p>
+            <p>
+              Bạn cần ra điểm đón trước 15 phút, đưa thông tin ở đây cho nhân
+              viên để được lên xe
+            </p>
+          </div>
+          <div class="guide-payment">
+            <p>Hướng dẫn thanh toán khi chuyển khoản:</p>
+          </div>
+          <div class="payment__method--banking" style="padding: 0">
+            <p class="text_">Vui lòng thanh toán trước giờ khởi hành 12 giờ</p>
+            <p class="text_">Hướng dẫn</p>
+            <p class="text_">Quét QR Code bên dưới</p>
+            <div class="img">
+              <img src="./images/banking.png" alt="" srcset="" />
+            </div>
+            <p class="text_">Hoặc</p>
+            <p class="text_">Chuyến khoản vào tài khoản dưới đây</p>
+            <div class="info">
+              <span>Số tài khoản</span>
+              <span>313 1000 1311 219</span>
+            </div>
+            <div class="info">
+              <span>Chủ tài khoản</span>
+              <span>OCT Booking</span>
+            </div>
+            <div class="info">
+              <span>Nội dung</span>
+              <span style="color: #ffb800">OCT-0824644573-17092022</span>
+            </div>
+          </div>
+          <div class="button">
+            <a href="./index.html">HỦY VÉ</a>
+          </div>
+        </li>
+        <li>
+          <div class="payment__info">
+            <h2 style="color: #1e5dff">Thông tin vé</h2>
+            <div>
+              <label for="">Mã đơn hàng:</label>
+              <p>47QHUI3</p>
+            </div>
+            <div>
+              <label for="">Hành khách:</label>
+              <p>Huỳnh Văn Thuận</p>
+            </div>
+            <div>
+              <label for="">Hành khách:</label>
+              <p>Huỳnh Văn Thuận</p>
+            </div>
+            <div>
+              <label for="">Số điện thoại:</label>
+              <p>0824644573</p>
+            </div>
+            <div>
+              <label for="">Email:</label>
+              <p>huynhvanthuan.140921@gmail.com</p>
+            </div>
+            <div>
+              <label for="">Nhà xe:</label>
+              <p>ADT Limousine</p>
+            </div>
+            <div>
+              <label for="">Biển hiệu:</label>
+              <p>86C-69797</p>
+            </div>
+            <div>
+              <label for="">Tuyến đường:</label>
+              <p>Bình Thuận - Sài Gòn</p>
+            </div>
+            <div>
+              <label for="">Điểm đón:</label>
+              <p>Bến xe bắc ruộng</p>
+            </div>
+            <div>
+              <label for="">Ngày đi:</label>
+              <p>13:30, 17-09-2022</p>
+            </div>
+            <div>
+              <label for="">Ghi chú:</label>
+              <p>...</p>
+            </div>
+          </div>
+
+          <div class="payment__total">
+            <h3 style="margin-bottom: 0.8rem">Thông tin giao dịch</h3>
+            <div class="payment__total--top">
+              <p>Giá vé</p>
+              <p>340.000đ x 1</p>
+            </div>
+            <hr />
+            <div
+              class="payment__total--bottom"
+              style="justify-content: space-between; display: flex"
+            >
+              <span class="total">Tổng tiền:</span>
+              <span class="price">340.000đ</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./js/interval.js"></script>
+    <script src="./js/payment.js"></script>
+  </body>
+</html>

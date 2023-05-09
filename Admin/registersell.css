@@ -1,0 +1,948 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background: lightblue;
+}
+
+.register-form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 700px;
+    height: 421px;
+    left: 650px;
+    top: 232px;
+    background: #FFFFFF;
+    border: 2px solid #CDC3C3;
+}
+
+.register-form2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 700px;
+    height: 621px;
+    left: 650px;
+    top: 232px;
+    background: #FFFFFF;
+    border: 2px solid #CDC3C3;
+}
+
+.form-input-name {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 53px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-name:focus {
+    border-color: #2374c0;
+}
+
+.form-label {
+    position: absolute;
+    top: 16.5%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-name:not(:placeholder-shown)+.form-label,
+.form-input-name:focus+.form-label {
+    color: #2374c0;
+    top: 44px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+
+/*------------------------*/
+
+.form-input-phone {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 111px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-phone:focus {
+    border-color: #2374c0;
+}
+
+.form-label-phone {
+    position: absolute;
+    top: 30.5%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-phone:not(:placeholder-shown)+.form-label-phone,
+.form-input-phone:focus+.form-label-phone {
+    color: #2374c0;
+    top: 104px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*------------------------*/
+
+.form-input-email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 170px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-email:focus {
+    border-color: #2374c0;
+}
+
+.form-label-email {
+    position: absolute;
+    top: 44.3%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-email:not(:placeholder-shown)+.form-label-email,
+.form-input-email:focus+.form-label-email {
+    color: #2374c0;
+    top: 162px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.form-input-inputname {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 230px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-inputname:focus {
+    border-color: #2374c0;
+}
+
+.form-label-inputname {
+    position: absolute;
+    top: 58.5%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-inputname:not(:placeholder-shown)+.form-label-inputname,
+.form-input-inputname:focus+.form-label-inputname {
+    color: #2374c0;
+    top: 222px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.check {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 306px;
+    background: #FFFFFF;
+    border: 3px solid #D9D9D9;
+}
+
+.register {
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 388px;
+    top: 350px;
+    background: #52A2EC;
+    border: 3px solid #52A2EC;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.close {
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 160px;
+    top: 350px;
+    background: #f46363;
+    border: 3px solid #f46363;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+/*-------------------------*/
+
+.register-form-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 700px;
+    height: 921px;
+    left: 650px;
+    top: 232px;
+    background: #FFFFFF;
+    border: 2px solid #CDC3C3;
+}
+
+
+/*---------------*/
+
+.form-input-name2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 50px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-name2:focus {
+    border-color: #2374c0;
+}
+
+.form-label-name2 {
+    position: absolute;
+    top: 7%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-name2:not(:placeholder-shown)+.form-label-name2,
+.form-input-name2:focus+.form-label-name2 {
+    color: #2374c0;
+    top: 43px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*---------------*/
+
+.form-input-phone2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 110px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-phone2:focus {
+    border-color: #2374c0;
+}
+
+.form-label-phone2 {
+    position: absolute;
+    top: 13.8%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-phone2:not(:placeholder-shown)+.form-label-phone2,
+.form-input-phone2:focus+.form-label-phone2 {
+    color: #2374c0;
+    top: 102px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*---------------*/
+
+.form-input-email2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 170px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-email2:focus {
+    border-color: #2374c0;
+}
+
+.form-label-email2 {
+    position: absolute;
+    top: 20.5%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-email2:not(:placeholder-shown)+.form-label-email2,
+.form-input-email2:focus+.form-label-email2 {
+    color: #2374c0;
+    top: 162px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*---------------*/
+
+.form-input-inputname2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 230px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-inputname2:focus {
+    border-color: #2374c0;
+}
+
+.form-label-inputname2 {
+    position: absolute;
+    top: 26.7%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-inputname2:not(:placeholder-shown)+.form-label-inputname2,
+.form-input-inputname2:focus+.form-label-inputname2 {
+    color: #2374c0;
+    top: 222px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*-----*/
+
+.form-input-license-plate {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 290px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-license-plate:focus {
+    border-color: #2374c0;
+}
+
+.form-label-license-plate {
+    position: absolute;
+    top: 33.4%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-license-plate:not(:placeholder-shown)+.form-label-license-plate,
+.form-input-license-plate:focus+.form-label-license-plate {
+    color: #2374c0;
+    top: 282px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*-----*/
+
+.form-input-fare {
+    box-sizing: border-box;
+    position: absolute;
+    width: 206px;
+    height: 49px;
+    left: 180px;
+    top: 420px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-fare:focus {
+    border-color: #2374c0;
+}
+
+.form-label-fare {
+    position: absolute;
+    top: 47.8%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-fare:not(:placeholder-shown)+.form-label-fare,
+.form-input-fare:focus+.form-label-fare {
+    color: #2374c0;
+    top: 412px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*-----*/
+
+.form-input-begin {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 480px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-begin:focus {
+    border-color: #2374c0;
+}
+
+.form-label-begin {
+    position: absolute;
+    top: 54.2%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-begin:not(:placeholder-shown)+.form-label-begin,
+.form-input-begin:focus+.form-label-begin {
+    color: #2374c0;
+    top: 472px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*-----*/
+
+.form-input-end {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 540px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-end:focus {
+    border-color: #2374c0;
+}
+
+.form-label-end {
+    position: absolute;
+    top: 60.7%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-end:not(:placeholder-shown)+.form-label-end,
+.form-input-end:focus+.form-label-end {
+    color: #2374c0;
+    top: 531px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*-----*/
+
+.form-input-tickets-sold {
+    box-sizing: border-box;
+    position: absolute;
+    width: 206px;
+    height: 49px;
+    left: 180px;
+    top: 600px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-tickets-sold:focus {
+    border-color: #2374c0;
+}
+
+.form-label-tickets-sold {
+    position: absolute;
+    top: 67.1%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-tickets-sold:not(:placeholder-shown)+.form-label-tickets-sold,
+.form-input-tickets-sold:focus+.form-label-tickets-sold {
+    color: #2374c0;
+    top: 592px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*-----*/
+
+.form-input-note {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 170px;
+    left: 180px;
+    top: 660px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-note:focus {
+    border-color: #2374c0;
+}
+
+.form-label-note {
+    position: absolute;
+    top: 73.7%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-note:not(:placeholder-shown)+.form-label-note,
+.form-input-note:focus+.form-label-note {
+    color: #2374c0;
+    top: 652px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.register2 {
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 388px;
+    top: 860px;
+    background: #52A2EC;
+    border: 3px solid #52A2EC;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.close2 {
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 160px;
+    top: 860px;
+    background: #f46363;
+    border: 3px solid #f46363;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.manager {
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    left: 577px;
+    top: 8px;
+    background: #FFC700;
+    border-radius: 4px;
+}
+
+.form-input-name3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 50px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-name3:focus {
+    border-color: #2374c0;
+}
+
+.form-label-name3 {
+    position: absolute;
+    top: 10.3%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-name3:not(:placeholder-shown)+.form-label-name3,
+.form-input-name3:focus+.form-label-name3 {
+    color: #2374c0;
+    top: 43px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*---------------*/
+
+.form-input-phone3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 110px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-phone3:focus {
+    border-color: #2374c0;
+}
+
+.form-label-phone3 {
+    position: absolute;
+    top: 20.2%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-phone3:not(:placeholder-shown)+.form-label-phone3,
+.form-input-phone3:focus+.form-label-phone3 {
+    color: #2374c0;
+    top: 102px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.form-input-license-plate2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 170px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-license-plate2:focus {
+    border-color: #2374c0;
+}
+
+.form-label-license-plate2 {
+    position: absolute;
+    top: 30%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-license-plate2:not(:placeholder-shown)+.form-label-license-plate2,
+.form-input-license-plate2:focus+.form-label-license-plate2 {
+    color: #2374c0;
+    top: 163px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*---------------*/
+
+.form-input-fare2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 290px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-fare2:focus {
+    border-color: #2374c0;
+}
+
+.form-label-fare2 {
+    position: absolute;
+    top: 49.4%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-fare2:not(:placeholder-shown)+.form-label-fare2,
+.form-input-fare2:focus+.form-label-fare2 {
+    color: #2374c0;
+    top: 282px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.form-input-ticketsum {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 180px;
+    top: 352px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-ticketsum:focus {
+    border-color: #2374c0;
+}
+
+.form-label-ticketsum {
+    position: absolute;
+    top: 59.5%;
+    left: 200px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-ticketsum:not(:placeholder-shown)+.form-label-ticketsum,
+.form-input-ticketsum:focus+.form-label-ticketsum {
+    color: #2374c0;
+    top: 345px;
+    left: 190px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.register3 {
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 388px;
+    top: 540px;
+    background: #52A2EC;
+    border: 3px solid #52A2EC;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.close3 {
+    position: absolute;
+    width: 162px;
+    height: 27px;
+    left: 160px;
+    top: 540px;
+    background: #f46363;
+    border: 3px solid #f46363;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.check2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 416px;
+    background: #FFFFFF;
+    border: 3px solid #D9D9D9;
+}
+
+.inf {
+    position: absolute;
+    width: 169px;
+    height: 18px;
+    left: 80px;
+    top: 408px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #55A7E1;
+}

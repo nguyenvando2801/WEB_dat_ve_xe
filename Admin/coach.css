@@ -1,0 +1,374 @@
+.tongquan {
+    position: absolute;
+    width: 505px;
+    height: 87px;
+    left: 0px;
+    top: 94px;
+    background: #2C3358;
+    justify-content: left;
+    align-items: left;
+}
+
+.h1 {
+    width: 1532px;
+    height: 97px;
+    left: 949px;
+    top: 29px;
+    color: black;
+}
+
+#wrapper4:hover {
+    background-color: #1F243C;
+    cursor: pointer;
+}
+
+#wrapper5:hover {
+    background-color: #1F243C;
+    cursor: pointer;
+}
+
+#wrapper6:hover {
+    background-color: #1F243C;
+    cursor: pointer;
+}
+
+#wrapper7:hover {
+    background-color: #1F243C;
+    cursor: pointer;
+}
+
+#wrapper8:hover {
+    background-color: #1F243C;
+    cursor: pointer;
+}
+
+#wrapper2:hover {
+    background-color: #36638C;
+    cursor: pointer;
+}
+
+.ex {
+    box-sizing: border-box;
+    position: absolute;
+    width: 837px;
+    height: 304px;
+    left: 796px;
+    top: 371px;
+    background: #FFFFFF;
+    border: 3px solid #D9D9D9;
+    border-radius: 15px;
+}
+
+.noo {
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    left: 85px;
+    top: 191px;
+    background: #F46363;
+    border-radius: 15px;
+}
+
+.yess {
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    left: 485px;
+    top: 191px;
+    background: #52A2EC;
+    border-radius: 15px;
+}
+
+.addcoach {
+    box-sizing: border-box;
+    position: absolute;
+    width: 131px;
+    height: 31px;
+    left: 1659px;
+    top: 155px;
+    background: #73CAE6;
+    border: 3px solid #73CAE5;
+    border-radius: 10px;
+}
+
+.addnew {
+    box-sizing: border-box;
+    position: absolute;
+    width: 798px;
+    height: 796px;
+    left: 816px;
+    top: 65px;
+    background: #ffffff;
+    border: 3px solid #D9D9D9;
+    border-radius: 15px;
+}
+
+.form-input-name {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 307px;
+    top: 103px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-name:focus {
+    border-color: #2374c0;
+}
+
+.form-label {
+    position: absolute;
+    top: 15%;
+    left: 330px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-name:not(:placeholder-shown)+.form-label,
+.form-input-name:focus+.form-label {
+    color: #2374c0;
+    top: 93px;
+    left: 320px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+
+/*------------------------*/
+
+.form-input-phone {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 307px;
+    top: 162px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-phone:focus {
+    border-color: #2374c0;
+}
+
+.form-label-phone {
+    position: absolute;
+    top: 22.5%;
+    left: 330px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-phone:not(:placeholder-shown)+.form-label-phone,
+.form-input-phone:focus+.form-label-phone {
+    color: #2374c0;
+    top: 155px;
+    left: 320px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*------------------------*/
+
+.form-input-email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 307px;
+    top: 220px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-email:focus {
+    border-color: #2374c0;
+}
+
+.form-label-email {
+    position: absolute;
+    top: 29.8%;
+    left: 330px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-email:not(:placeholder-shown)+.form-label-email,
+.form-input-email:focus+.form-label-email {
+    color: #2374c0;
+    top: 211px;
+    left: 320px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*------------------------*/
+
+.form-input-inputname {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 307px;
+    top: 280px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-inputname:focus {
+    border-color: #2374c0;
+}
+
+.form-label-inputname {
+    position: absolute;
+    top: 37.5%;
+    left: 330px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-inputname:not(:placeholder-shown)+.form-label-inputname,
+.form-input-inputname:focus+.form-label-inputname {
+    color: #2374c0;
+    top: 271px;
+    left: 320px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+
+/*------------------------*/
+
+.form-input-carname {
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 307px;
+    top: 340px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.form-input-carname:focus {
+    border-color: #2374c0;
+}
+
+.form-label-carname {
+    position: absolute;
+    top: 45%;
+    left: 330px;
+    user-select: none;
+    color: #D9D9D9;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+.form-input-carname:not(:placeholder-shown)+.form-label-carname,
+.form-input-carname:focus+.form-label-carname {
+    color: #2374c0;
+    top: 331px;
+    left: 320px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.check {
+    box-sizing: border-box;
+    position: absolute;
+    width: 35px;
+    height: 34px;
+    left: 60px;
+    top: 405px;
+    background: #FFFFFF;
+    border: 15px solid #D9D9D9;
+}
+
+.add {
+    position: absolute;
+    width: 236px;
+    height: 43px;
+    left: 271px;
+    top: 702px;
+    background: #52A2EC;
+    border-radius: 15px;
+    border: 15px solid #52A2EC;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.addcustomer {
+    box-sizing: border-box;
+    position: absolute;
+    width: 141px;
+    height: 31px;
+    left: 1614px;
+    top: 155px;
+    background: #73CAE6;
+    border: 3px solid #73CAE5;
+    border-radius: 10px;
+}
+
+.help {
+    position: absolute;
+    width: 171px;
+    height: 31px;
+    left: 1034px;
+    top: 872px;
+    background: #5B9FD0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: 3px solid #5B9FD0;
+}
+
+.registersell {
+    position: absolute;
+    width: 171px;
+    height: 31px;
+    left: 1234px;
+    top: 872px;
+    background: #5B9FD0;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid #5B9FD0;
+}

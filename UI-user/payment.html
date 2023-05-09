@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="payment">
+      <header id="header">
+        <div class="header container">
+          <div
+            class="header__left"
+            style="padding-left: 2rem; padding-top: 2rem"
+          >
+            <a href="./index.html">
+              <img
+                src="./images/logo.png"
+                alt=""
+                style="scale: 0.9"
+                srcset=""
+              />
+            </a>
+            <span>OCT</span>
+          </div>
+          <div style="text-align: center; padding-right: 4rem">
+            <p>Thời gian thanh toán còn :</p>
+            <p><span id="total__time" style="color: red">7</span> phút</p>
+          </div>
+        </div>
+      </header>
+      <p class="text">OCT cam kết giữ đúng chỗ ngồi của bạn</p>
+      <ul class="payment__content">
+        <li>
+          <p>Phương thức thanh toán</p>
+          <div class="payment__method">
+            <div class="payment__method--item">
+              <input type="radio" name="method" value="momo" id="momo" />
+              <label for="momo">
+                <img src="./images/momo.png" alt="" srcset="" />
+                <span>Ví Momo</span>
+              </label>
+            </div>
+            <div class="payment__method--item">
+              <input type="radio" name="method" value="banking" id="banking" />
+              <label for="banking">
+                <img src="./images/2-way.png" alt="" srcset="" />
+                <span>Chuyển khoản ngân hàng</span>
+              </label>
+            </div>
+            <div class="payment__method--banking banking hidden">
+              <p class="text_">
+                Vui lòng thanh toán trước giờ khởi hành 12 giờ
+              </p>
+              <p class="text_">Hướng dẫn</p>
+              <p class="text_">Quét QR Code bên dưới</p>
+              <div class="img">
+                <img src="./images/banking.png" alt="" srcset="" />
+              </div>
+              <p class="text_">Hoặc</p>
+              <p class="text_">Chuyến khoản vào tài khoản dưới đây</p>
+              <div class="info">
+                <span>Số tài khoản</span>
+                <span>313 1000 1311 219</span>
+              </div>
+              <div class="info">
+                <span>Chủ tài khoản</span>
+                <span>OCT Booking</span>
+              </div>
+              <div class="info">
+                <span>Nội dung</span>
+                <span style="color: #ffb800">OCT-0824644573-17092022</span>
+              </div>
+            </div>
+            <div class="payment__method--item">
+              <input type="radio" name="method" value="offline" id="offline" />
+              <label for="offline">
+                <img src="./images/car_house.png" alt="" srcset="" />
+                <span>Thanh toán tại nhà xe</span>
+              </label>
+            </div>
+            <div class="payment__method--banking offline hidden">
+              <p class="text_">
+                Vui lòng thanh toán trước giờ khởi hành 12 giờ
+              </p>
+              <p class="text_">Hướng dẫn</p>
+              <ol>
+                <li>
+                  Đến một trong các địa điểm dưới đây
+                  <ul>
+                    <li>1249 đường 3/2, p.6, Q11, Hồ Chí Minh</li>
+                    <li>Thôn 1, xã Đức Phú, Tánh Linh, Bình Thuận</li>
+                  </ul>
+                </li>
+                <li>
+                  2. Báo với nhân viên là bạn cần thanh toán vé xe đặt trên OCT
+                  và làm theo hướng dẫn của nhân viên
+                </li>
+              </ol>
+            </div>
+          </div>
+        </li>
+        <li>
+          <p>Thông tin</p>
+          <div class="payment__info">
+            <div>
+              <label for="">Hành khách:</label>
+              <p>Huỳnh Văn Thuận</p>
+              <div onclick="openModal()" class="edit">
+                <i class="bx bx-edit"></i>
+                <span>Edit</span>
+              </div>
+            </div>
+            <div>
+              <label for="">Số điện thoại:</label>
+              <p>0824644573</p>
+            </div>
+            <div>
+              <label for="">Email:</label>
+              <p>huynhvanthuan.140921@gmail.com</p>
+            </div>
+            <div>
+              <label for="">Nhà xe:</label>
+              <p>ADT Limousine</p>
+              <div onclick="openModal()" class="edit">
+                <i class="bx bx-edit"></i>
+                <span>Edit</span>
+              </div>
+            </div>
+            <div>
+              <label for="">Điểm đón:</label>
+              <p>Bến xe bắc ruộng</p>
+            </div>
+            <div>
+              <label for="">Ngày đi:</label>
+              <p>13:30, 17-09-2022</p>
+            </div>
+            <div>
+              <label for="">Ghi chú:</label>
+              <p>...</p>
+            </div>
+          </div>
+
+          <div class="payment__total">
+            <div class="payment__total--top">
+              <p>Giá vé</p>
+              <p>340.000đ x 1</p>
+            </div>
+            <hr />
+            <div class="payment__total--bottom">
+              <span class="total">Tổng tiền:</span>
+              <span class="price">340.000đ</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="modal">
+      <div class="modal__container">
+        <div class="modal__header">
+          <h2 style="text-align: center">Sửa thông tin</h2>
+        </div>
+        <span class="modal__close bx bx-x"></span>
+        <div class="modal__body">
+          <form
+            action="#"
+            class="js_form step step3 payment__"
+            style="width: 90% !important; margin: 3rem auto 0rem auto"
+          >
+            <div class="form-field">
+              <div class="field">
+                <div class="form-field">
+                  <div class="field__label__">
+                    <label for="">Hành khách</label>
+                  </div>
+                  <div class="field__input">
+                    <input
+                      type="text"
+                      value="Huỳnh Văn Thuận"
+                      placeholder="Nhập hành khách..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <div class="form-field">
+                  <div class="field__label__">
+                    <label for="">Số điện thoại</label>
+                  </div>
+                  <div class="field__input">
+                    <input
+                      type="text"
+                      class="js_phone"
+                      value="0824644573"
+                      placeholder="Nhập số điện thoại..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <div class="form-field">
+                  <div class="field__label__">
+                    <label for="">Email</label>
+                  </div>
+                  <div class="field__input">
+                    <input
+                      type="text"
+                      class="js_email"
+                      value="huynhvanthuan.140921@gmail.com"
+                      placeholder="Nhập email..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="update">
+                <button id="js_register">Cập nhật</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="payment__footer hidden">
+      <div>
+        <a href="./payment-success.html">THANH TOÁN NGAY</a>
+        <span
+          >Cùng với thao tác này bạn đồng ý với <br />
+          <b>Chính sách</b> của chúng tôi</span
+        >
+      </div>
+      <p>Bản quyền © 2022 thuộc về OCT</p>
+    </div>
+
+    <script src="./js/interval.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/payment.js"></script>
+    <script src="./js/interval.js"></script>
+  </body>
+</html>

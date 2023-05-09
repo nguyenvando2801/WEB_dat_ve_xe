@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="authen">
+      <div
+        class="authen__left"
+        style="background-image: url('./images/authen.png')"
+      ></div>
+      <div class="authen__right">
+        <form
+          action="#"
+          class="form_register profile profile__info step3 js_form"
+        >
+          <h1>ĐĂNG KÝ TÀI KHOẢN</h1>
+          <div class="form-field">
+            <div class="field">
+              <div class="field__label">
+                <label for="">Họ và tên</label>
+              </div>
+              <div class="field__input">
+                <input type="text" placeholder="Họ và tên" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="field__label">
+                <label for="">Tên đăng nhập</label>
+              </div>
+              <div class="field__input">
+                <input type="text" placeholder="Tên đăng nhập" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="field__label">
+                <label for="">Mật khẩu</label>
+              </div>
+              <div class="field__input">
+                <input
+                  class="js_password"
+                  type="password"
+                  placeholder="Mật khẩu"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <div class="field__label">
+                <label for="">Nhập lại mật khẩu</label>
+              </div>
+              <div class="field__input">
+                <input
+                  id="js_password_again"
+                  type="password"
+                  placeholder="Nhập lại mật khẩu"
+                />
+              </div>
+            </div>
+            <div class="field optional">
+              <div class="field__label">
+                <label for="">Email</label>
+              </div>
+              <div class="field__input">
+                <input class="js_email" type="text" placeholder="Email" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="field__label">
+                <label for="">Số điện thoại</label>
+              </div>
+              <div class="field__input">
+                <input
+                  class="js_phone"
+                  type="text"
+                  placeholder="Số điện thoại"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="index__right--footer">
+            <button id="js_register" style="padding: 1rem 2.4rem">
+              ĐĂNG KÝ
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/common.js"></script>
+  </body>
+</html>

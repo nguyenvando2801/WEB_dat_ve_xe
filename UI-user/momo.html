@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="momo__container">
+    <div class="momo">
+      <div class="momo__left">
+        <p>
+          Đơn hàng sẽ hết hạn <br />
+          sau: <b id="total__time"></b> phút
+        </p>
+
+        <h3>Nhà cung cấp</h3>
+        <h1>OCT BOOKING</h1>
+        <hr />
+        <div>
+          <i class="bx bx-money"></i>
+          <div>
+            <p>Số tiền thanh toán</p>
+            <p>340.000đ</p>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <i class="bx bxs-user-rectangle"></i>
+          <div>
+            <p>Người nhận</p>
+            <p>OCT Booking</p>
+          </div>
+        </div>
+        <hr />
+        <div class="back">
+          <i class="bx bx-left-arrow-alt"></i>
+          <span
+            ><a href="./payment.html" style="color: #ffffff">Quay lại</a></span
+          >
+        </div>
+      </div>
+      <div class="momo__right">
+        <div class="momo__right--header">
+          <img src="./images/logo.png" alt="" srcset="" />
+          <img src="./images/momo.png" alt="" srcset="" />
+        </div>
+        <hr />
+        <p class="scan">Quét mã để thanh toán</p>
+        <div class="qr_code">
+          <img src="./images/qr_momo.png" alt="" srcset="" />
+        </div>
+        <p class="momo__right--text">Sử dụng app <b>MoMo</b></p>
+        <p class="momo__right--text">hoặc</p>
+        <p class="momo__right--text">
+          Ứng dụng <b>Camera</b> hổ trợ QR Code để quét ma
+        </p>
+        <p class="momo__right--text">
+          <i class="bx bx-sync"></i> Đang chờ thanh toán...
+        </p>
+      </div>
+    </div>
+    <script src="./js/interval.js"></script>
+  </body>
+</html>

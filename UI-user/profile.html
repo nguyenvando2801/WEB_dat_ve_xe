@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="header container">
+        <div class="header__left">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="" srcset="" />
+          </a>
+          <span>OCT</span>
+        </div>
+        <ul class="header__center">
+          <li class="active">
+            <a href="./index.html">Trang chủ</a>
+          </li>
+          <li>
+            <a href="">Mở bán tại OCT</a>
+          </li>
+          <li>
+            <a href="">Về chúng tôi</a>
+          </li>
+        </ul>
+        <ul class="header__right">
+          <li>
+            <span>EN</span>
+            <img src="./images/En.png" alt="" />
+          </li>
+          <li>
+            <img src="./images/phone_call.png" alt="" />
+            <span>Hotline</span>
+          </li>
+          <li class="user__btn" id="btn_user">
+            <img src="./images/user.png" alt="" />
+            <span>Thuận</span>
+            <div class="user__list__item profile hidden" id="js_list_user">
+              <ul class="profile__content__">
+                <li class="profile__item active">
+                  <img src="./images/user-line.png" alt="" srcset="" />
+                  <span>Thông tin tài khoản</span>
+                </li>
+                <li class="profile__item">
+                  <img src="./images/delivery.png" alt="" srcset="" />
+                  <span>Chuyến đi</span>
+                </li>
+                <li>
+                  <a href="./index.html">
+                    <img src="./images/logout.png" alt="" srcset="" />
+                    <span>Đăng xuất</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="breadcrumb container">
+      <a href="" class="active">Trang chủ</a>
+      <span>></span>
+      <a href="">Thông tin tài khoản</a>
+    </div>
+    <div class="container index">
+      <div class="index__left profile">
+        <ul class="profile__content__">
+          <li class="profile__item active">
+            <img src="./images/user-line.png" alt="" srcset="" />
+            <span>Thông tin tài khoản</span>
+          </li>
+          <li class="profile__item">
+            <img src="./images/delivery.png" alt="" srcset="" />
+            <span>Chuyến đi</span>
+          </li>
+          <li>
+            <a href="./index.html">
+              <img src="./images/logout.png" alt="" srcset="" />
+              <span>Đăng xuất</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <form
+        action=""
+        class="index__right profile profile__info step3 form-contact"
+      >
+        <div class="form-field">
+          <label for="">Họ và tên</label>
+          <input type="text" placeholder="Nhập họ tên..." />
+          <p></p>
+        </div>
+        <div class="form-field">
+          <label for="">Giới tính</label>
+          <ul class="gender">
+            <li>
+              <input type="radio" name="gender" id="man" checked />
+              <label for="man">Nam</label>
+            </li>
+            <li>
+              <input type="radio" name="gender" id="woman" />
+              <label for="woman">Nữ</label>
+            </li>
+          </ul>
+          <p></p>
+        </div>
+        <div class="form-field">
+          <label for="">Ngày sinh</label>
+          <input type="date" />
+          <p></p>
+        </div>
+        <div class="form-field">
+          <label for="">Số điện thoại</label>
+          <input
+            type="text"
+            value="0824644573"
+            placeholder="Nhập số điện thoại..."
+            disabled
+          />
+          <p></p>
+        </div>
+        <hr style="margin: 3rem 0rem; border-top: 0.2rem solid #000000" />
+        <p></p>
+        <div class="form-field">
+          <label for="">Nhập mật khẩu hiện tại</label>
+          <input type="text" placeholder="Nhập mật khẩu hiện tại..." />
+          <p></p>
+        </div>
+        <div class="form-field">
+          <label for="">Nhập mật khẩu mới</label>
+          <input type="text" placeholder="Nhập mật khẩu mới..." />
+          <p></p>
+        </div>
+        <div class="index__right--footer">
+          <button style="padding: 1rem 2.4rem">Lưu</button>
+        </div>
+      </form>
+      <div class="delivery hidden">
+        <div class="delivery__top">
+          <span class="active">Hiện tại</span>
+          <span>Đã đi</span>
+        </div>
+        <div class="delivery__item" id="delivery__item--current">
+          <ul>
+            <li>
+              <p>ADT Limousine</p>
+              <p>13:30, 17-09-2022</p>
+              <p>Bình Thuận - Sài Gòn</p>
+            </li>
+            <li>
+              <p><b>Tên:</b> Huỳnh Văn Thuận</p>
+              <p><b>Số điện thoại:</b> 0824644573</p>
+            </li>
+          </ul>
+          <div class="button-cancel">
+            <button class="main">HỦY VÉ</button>
+            <div class="popup-button-cancel hidden">
+              <div class="header_">Xác nhận hủy vé</div>
+              <ul class="list">
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for="">Tôi bận nên không đi nữa</label>
+                </li>
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for="">Tôi đặt nhầm giờ/ngày</label>
+                </li>
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for="">Tôi bận nên không đi nữa</label>
+                </li>
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for=""
+                    >Tôi muốn đón dọc đường/trung chuyển nhưng nhà xe không
+                    đón</label
+                  >
+                </li>
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for="">Hãng xe không có tiện ích cần thiết</label>
+                </li>
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for="">Tôi đặt nhầm tuyến đường</label>
+                </li>
+                <li>
+                  <input type="radio" name="reason" id="" />
+                  <label for="">Khác</label>
+                </li>
+              </ul>
+              <div class="end active">Hủy vé</div>
+              <div class="end">Quay lại</div>
+            </div>
+          </div>
+          <div class="delivery__feedback hidden">
+            <p>GÓP Ý</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div>
+              <button>Gửi</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="delivery__item hidden" id="delivery__item--went">
+          <ul>
+            <li>
+              <p>ADT Limousine</p>
+              <p>13:30, 17-09-2022</p>
+              <p>Bình Thuận - Sài Gòn</p>
+            </li>
+            <li>
+              <p><b>Tên:</b> Huỳnh Văn Thuận</p>
+              <p><b>Số điện thoại:</b> 0824644573</p>
+            </li>
+          </ul>
+          <div class="delivery__feedback">
+            <p>GÓP Ý</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div>
+              <button>Gửi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/profile.js"></script>
+  </body>
+</html>
